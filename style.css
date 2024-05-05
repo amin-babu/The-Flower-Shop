@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Voces", sans-serif;
+}
+
+.btn-primary{
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  background-color: #E55473;
+  border-radius: 5px;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color: #272727;
+}
+
+.section-description{
+  text-align: center;
+  font-size: 15px;
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #272727;
+}
+
+/* header section */
+
+.header-container{
+  background-color: #FCEAEE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+  padding-bottom: 0;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.header-text{
+  width: 550px;
+  margin-right: 0px;
+}
+
+.header-title{
+  font-size: 58px;
+  color: #272727;
+  margin-bottom: 10px;
+}
+
+.header-description{
+  font-size: 12px;
+  width: 400px;
+  color: #272727;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.header-img > img{
+  height: 570px;
+}
+
+/* featured flower section */
+
+.feature-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 150px;
+}
+
+.f-image{
+ background-color: #F2DEE7;
+ padding: 60px;
+ padding-bottom: 0;
+ height: 260px;
+ width: 190px;
+ border-radius: 50%;
+ border-bottom-left-radius: 0;
+ border-bottom-right-radius: 0;
+ margin-bottom: 15px;
+}
+
+.f-title , .f-name{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.light-green{
+  background-color: #D9EFF1;
+}
+
+.light-gre-ylo{
+  background-color: #E3EBDB;
+}
+
+/* support style */
+
+.support-container{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  width: 1010px;
+  height: 220px;
+  background-color: #F4F4F4;
+  margin: 50px auto;
+  padding: 60px 120px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.support-box > img{
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.support-box > p{
+  font-size: 13px;
+}
+
+/* hot deal style */
+
+.hot-deal-container{
+  background-color: #FCEAEE;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 180px;
+}
+
+.hot-deal-title{
+  font-size: 23px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.hot-deal-title > span{
+  color: #E55473;
+}
+
+.hot-deal-description{
+  margin: 0;
+  font-size: 14px;
+  width:400px;
+  margin-bottom: 15px;
+}
+
+.hot-deal-btn{
+  margin-left: 160px;
+}
+
+.hot-deal-img{
+  height: 300px;
+}
