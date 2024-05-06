@@ -167,9 +167,72 @@
   justify-content: space-around;
   padding: 50px 150px;
   padding-top: 10px;
+  box-sizing: border-box;
+  padding-bottom: 0;
 }
 
 .ins-images > img{
-  height: 260px;
-  width: 230px;
+  height: 280px;
+  width: 250px;
+}
+
+/* form section */
+
+.form-container{
+  background-image: url('images/Rectangle\ 9.png');
+  width: 480px;
+  height: 150px;
+  background-position: center;
+  margin: 60px auto;
+  font-size: 20px;
+  align-items: center;
+  padding:60px 280px ;
+  padding-top: 80px;
+  background-size: cover;
+}
+
+#form-bar{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input-text{
+  width: 350px;
+  padding:10px 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* footer style */
+
+.footer{
+  text-align: center;
+  padding: 90px;
+  background-color: #111010;
+  margin-top: 100px;
+}
+
+.footer-title > span{
+  color: #E55473;
+}
+
+.footer-title{
+  font-size: 40px;
+  color: white;
+  padding: 18px;
+}
+
+.footer-description{
+  color: white;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 0;
+  line-height: 25px;
+}
+
+.footer-copy{
+  font-size: 12px;
+  color: white;
 }
